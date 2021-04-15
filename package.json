@@ -1,0 +1,26 @@
+{
+  "name": "commitizen-tuto",
+  "version": "1.0.0",
+  "private": "true",
+  "main": "index.js",
+  "author": "João Cháchá <joaorodrigues.xp.15@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commitizen": "^4.2.3",
+    "conventional-changelog-cli": "^2.1.1",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "scripts": {
+    "bump": "npx standard-version -a",
+    "commit": "npx git-cz",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

@@ -8,7 +8,9 @@
   "dependencies": {
     "commitizen": "^4.2.3",
     "conventional-changelog-cli": "^2.1.1",
-    "cz-conventional-changelog": "^3.3.0"
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-lerna-changelog": "^2.0.3",
+    "lerna": "^4.0.0"
   },
   "scripts": {
     "bump": "npx standard-version -a",
@@ -17,7 +19,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/cz-lerna-changelog"
     }
   },
   "workspaces": [

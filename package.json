@@ -1,6 +1,6 @@
 {
   "name": "commitizen-tuto",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": "true",
   "main": "index.js",
   "author": "João Cháchá <joaorodrigues.xp.15@gmail.com>",
